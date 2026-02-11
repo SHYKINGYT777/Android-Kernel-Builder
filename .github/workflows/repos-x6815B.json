@@ -1,0 +1,18 @@
+{
+  "kernelSource": {
+    "name": "X6815B-NativeFix",
+    "repo": "https://github.com/Heskyyy/kernel-infinix-x6833b",
+    "branch": "main",
+    "device": "Infinix-X6815B", 
+    "defconfig": "mt6789_defconfig"
+  },
+  "params": {
+    "ARCH": "arm64"
+  },
+  "AnyKernel3": {
+    "repo": "https://github.com/osm0sis/AnyKernel3",
+    "branch": "master",
+    "use": true
+  },
+  "withKernelSU": false
+}
